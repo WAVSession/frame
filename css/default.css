@@ -1,0 +1,98 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background: #f3f3f3;
+}
+
+.container {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.form {
+    width: 600px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+.file {
+    display: none;
+}
+
+.fb {
+    -webkit-mask-image: -webkit-radial-gradient(center, white, black);
+    border-radius: 50%;
+    height: 436px;
+    width: 436px;
+}
+
+.output {
+    width: 436px;
+    height: 436px;
+    border: 2px solid black;
+    padding: 0px;
+
+    
+}
+
+.output div {
+    width: 436px;
+    height: 436px;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+}
+
+.output div:nth-child(1) {
+    position: absolute;
+    background: url('https://i.imgur.com/07BgQN3.png');
+}
+
+.actions {
+    display: flex;
+    position: relative;
+}
+
+.actions .left {
+    position: absolute;
+    left: 0;
+    display: flex;
+    cursor: pointer;
+}
+
+.actions .right {
+    position: absolute;
+    right: 0;
+    display: flex;
+    cursor: pointer;
+}
+
+.actions .button {
+    padding: 10px;
+    height: 20px;
+    color: white;            
+    background: black;
+    border-radius: 5px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    margin-right: 5px;
+}
+
+.actions .button svg {
+    margin-right: 5px;
+}
+
+.actions .button:hover {
+    opacity: .7;
+}

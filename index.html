@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/js/all.min.js" integrity="sha512-6PM0qYu5KExuNcKt5bURAoT6KCThUmHRewN3zUFNaoI6Di7XJPTMoT6K0nsagZKk2OB4L7E3q1uQKHNHd4stIQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="css/default.css">
+    <script src="javascript/frame.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="logo">
+            <img src="images/logo.png" width="180">
+        </div>
+        <div class="form">
+            <div class="output">
+                <div class="event"></div>
+                <div class="photo"></div>
+            </div>
+            <br>
+            <div class="actions">
+                <div class="left">
+                    <div class="button select">
+                        <i class="fa-solid fa-download"></i>
+                        <span>Selecionar foto</span>
+                    </div>                    
+                </div>
+                <div class="right" style="display: none;">
+                    <div class="button delete">
+                        <i class="fa-solid fa-trash"></i>
+                        <span>Deletar</span>
+                    </div>
+                    <div class="button download">
+                        <i class="fa-solid fa-download"></i>
+                        <span>Baixar</span>
+                    </div>
+                </div>                
+            </div>    
+            <input class="file" id='input-file' type='file' />
+        </div>
+    </div>
+</body>
+</html>
